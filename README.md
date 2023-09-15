@@ -18,6 +18,7 @@ This is a simple repository meant to document current training software and tool
 - [chaiNNer](https://chainner.app/): This is a tool that can be used to degrade datasets as well, however it also supports *many* other functions, including using the models you've trained
 - [OpenModelDB](https://openmodeldb.info): This website contains a bunch of community trained models. You can use these models as they are, or use them as pretrains for your own model
 - [Simple Image Compare](https://github.com/Sirosky/Simple-Image-Compare): A basic tool for comparing images. This can be helpful when determining progress on your model
+- [Image Pearer](https://github.com/Sirosky/Image-Pearer): This tool will create image pairs from a given source. It looks at two folders of images (one HR, one LR), and automatically matches them up
 
 ### Tutorials:
 *1 and 2 are outdated, but much of the info applies to [NeoSR](https://github.com/muslll/neosr)*
