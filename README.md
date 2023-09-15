@@ -49,26 +49,16 @@ Here is a brief summary of some of the loss functions that are used for super re
 
 <details>
 <summary>Loss information, where to aim to have your loss values:</summary>
-  
-**Losses to aim for a decimal value of 0:**
-All but SSIM
 
-**Unknown (due to implementation variation):**
-GAN
-PSNR
+- **Most Losses:**: Aim for a value of 0. Lower is better.
+- **GAN**: Ideal value varies with implementation.
+- **SSIM**: Aim for a value of 1. Higher is better.
 
-**Aim for a decimal value of 1:**
-SSIM
+Metrics:
+- **PSNR**: No specific target value. Higher is better.
 
-**Higher is better:**
-PSNR
+**Example:**
+- A loss value of 4.1821e-04 (0.00041821 in decimal) is better than 4.1821e-01 (0.41821) for the main losses. A value closer to 0 is ideal in this scenario.
+- A loss value of 2.5325e+03 (2532.5 in decimal) is considered bad, as it's very high. You should tweak your config accordingly.
 
-__Example:__
-Take these two scientific notation values (And their decimal values):
-4.1821e-04 = 0.00041821
-4.1821e-01 = 0.41821
-
-For the main losses (aiming for a value of 0), a value of 4.1821e-04 is better than 4.1821e-01 because the decimal value is closer to 0.
-
-A value of 2.5325e+03 is very bad, as it converts to 2532.5. If you see a value this high, something in your config needs to be adjusted.
 </details>
