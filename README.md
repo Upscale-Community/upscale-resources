@@ -3,8 +3,22 @@ This is a simple repository meant to document current training software and tool
 ## Resources
 
 ### Training Software:
+#### Recommended software:
 - [neosr](https://github.com/muslll/neosr): NeoSR is a training software that prioritizes stability and performance. This release utlizies Pytorch 2.0, adds AMP & torch.compile() support, and much more. This is the easiest to start with and is consistently updated
 - [sudo's traiNNer](https://github.com/styler00dollar/Colab-traiNNer/): This is custom training software supports a significant amount of losses and architectures, and is very versatile. However, it is much more complex to use
+
+#### Other training software
+
+- [traiNNer-redux](https://github.com/joeyballentine/traiNNer-redux): traiNNer-redux is a recently forked version of BasicSR with additional losses such as color and contextual loss  
+
+- [traiNNer-redux-FJ](https://github.com/FlotingDream/traiNNer-redux): A fork of traiNNer-redux by @FloatingJoy#0260 that has additional arch support. This may become the main repo at some point
+
+- [BasicSR](https://github.com/XPixelGroup/BasicSR): The official training software for many architectures such as ESRGAN and SwinIR. Use either traiNNer-redux over this however
+
+- [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN)
+Very similar to BasicSR with a focus on the Real-ESRGAN architecture, including compact models. I'd also recommend traiNNer-redux over this
+
+- [KAIR](https://github.com/cszn/KAIR): Multifunctional training software that supports many arches
 
 ### Communities:
 - [Enhance Everything!](https://discord.gg/cpAUpDK): A community focused on training models for various purposes, including game upscaling, anime, photos, and more! Look in the `#training` channel's pinned messages for a bunch more info
@@ -63,3 +77,4 @@ Metrics:
 - A loss value of 2.5325e+03 (2532.5 in decimal) is considered bad, as it's very high. You should tweak your config accordingly.
 
 </details>
+
