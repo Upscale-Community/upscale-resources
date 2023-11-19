@@ -36,8 +36,11 @@ Very similar to BasicSR with a focus on the Real-ESRGAN architecture, including 
 - [Image Pearer](https://github.com/Sirosky/Image-Pearer): This tool will create image pairs from a given source. It looks at two folders of images (one HR, one LR), and automatically matches them up
 
 ### Tutorials:
-*1 and 2 are outdated, but much of the info applies to [NeoSR](https://github.com/muslll/neosr)*
+Constantly updated: [Sirosky's NeoSR Training Guide](https://github.com/Sirosky/Upscale-Hub/wiki/%F0%9F%93%88-Training-a-Model-in-NeoSR)
 
+Extra Video Tutorials:
+
+*1 and 2 are outdated, but much of the info applies to [NeoSR](https://github.com/muslll/neosr)*
 - Training a model with Real-ESRGAN Compact: https://www.youtube.com/watch?v=l_tZE5l90VY
 - Training an image upscaling model: https://www.youtube.com/watch?v=iH7-eYlf7eg
 - Dataset preparation: https://www.youtube.com/watch?v=TBiVIzQkptI
