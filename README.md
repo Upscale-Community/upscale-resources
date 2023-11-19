@@ -24,13 +24,14 @@ Very similar to BasicSR with a focus on the Real-ESRGAN architecture, including 
 - [Enhance Everything!](https://discord.gg/cpAUpDK): A community focused on training models for various purposes, including game upscaling, anime, photos, and more! Look in the `#training` channel's pinned messages for a bunch more info
 
 ### Tools:
+- [OpenModelDB](https://openmodeldb.info): This website contains a bunch of community trained models. You can use these models as they are, or use them as pretrains for your own model
+- [chaiNNer](https://chainner.app/): This is a tool that can be used to degrade datasets as well, however it also supports *many* other functions, including using the models you've trained
+- [AnimeJaNaiConverterGui](https://github.com/the-database/AnimeJaNaiConverterGui): Allows for fast video upscaling utilizing TensorRT (On Nvidia cards), DirectML, or NCNN within a clean GUI. Only supports ONNX. Use chaiNNer to convert pth models to ONNX for usage.
 - [Kim's Helpful Scripts](https://github.com/Kim2091/helpful-scripts): This is a collection of scripts I've made to assist with using training software. This includes:
    * A script to efficiently tile your datasets to speed up training
    * a "Dataset destroyer" to manually degrade images
    * and more!
 - [ImgAlign](https://github.com/sonic41592/ImgAlign): This is a great tool to automatically align your datasets. It supports TPS warping, which is a great feature for difficult image pairs
-- [chaiNNer](https://chainner.app/): This is a tool that can be used to degrade datasets as well, however it also supports *many* other functions, including using the models you've trained
-- [OpenModelDB](https://openmodeldb.info): This website contains a bunch of community trained models. You can use these models as they are, or use them as pretrains for your own model
 - [Simple Image Compare](https://github.com/Sirosky/Simple-Image-Compare): A basic tool for comparing images. This can be helpful when determining progress on your model
 - [Image Pearer](https://github.com/Sirosky/Image-Pearer): This tool will create image pairs from a given source. It looks at two folders of images (one HR, one LR), and automatically matches them up
 
