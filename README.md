@@ -5,6 +5,7 @@ This is a simple repository meant to document current training software and tool
 ### Training Software:
 #### Recommended software:
 - [neosr](https://github.com/muslll/neosr): NeoSR is a training software that prioritizes stability and performance. This release utlizies Pytorch 2.0, adds AMP & torch.compile() support, and much more. This is the easiest to start with and is consistently updated
+- [neosr-extended](https://github.com/Upscale-Community/neosr-extended): NeoSR-extended is a custom fork of NeoSR that adds additional functions/features. It is updated consistently with the original fork. An example would be additional ESRGAN functionality that retains compatibility with TensorRT
 - [sudo's traiNNer](https://github.com/styler00dollar/Colab-traiNNer/): This is custom training software supports a significant amount of losses and architectures, and is very versatile. However, it is much more complex to use
 
 #### Other training software (not recommended)
