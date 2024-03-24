@@ -32,7 +32,8 @@ This is a simple repository meant to document current training software and tool
    * a "Dataset destroyer" to manually degrade images
    * and more!
 - [ImgAlign](https://github.com/sonic41592/ImgAlign): This is a great tool to automatically align your datasets. It supports TPS warping, which is a great feature for difficult image pairs
-- [Simple Image Compare](https://github.com/Sirosky/Simple-Image-Compare): A basic tool for comparing images. This can be helpful when determining progress on your model
+- [img-ab](https://github.com/the-database/img-ab): An image comparison tool that is lightweight and efficient with a lot of options. This can be helpful when determining progress on your model
+- [Simple Image Compare](https://github.com/Sirosky/Simple-Image-Compare): A basic tool for comparing images
 - [Image Pearer](https://github.com/Sirosky/Image-Pearer): This tool will create image pairs from a given source. It looks at two folders of images (one HR, one LR), and automatically matches them up
 
 ### Tutorials:
