@@ -42,6 +42,7 @@ Constantly updated: [Sirosky's NeoSR Training Guide](https://github.com/Sirosky/
 Extra Video Tutorials:
 
 *1 and 2 are outdated, but much of the info applies to [NeoSR](https://github.com/muslll/neosr)*
+- Preparing for, training, and releasing a model with neosr: https://www.youtube.com/watch?v=8XUHbeE8prU
 - Training a model with Real-ESRGAN Compact: https://www.youtube.com/watch?v=l_tZE5l90VY
 - Training an image upscaling model: https://www.youtube.com/watch?v=iH7-eYlf7eg
 - Dataset preparation: https://www.youtube.com/watch?v=TBiVIzQkptI
