@@ -23,6 +23,7 @@ This is a simple repository meant to document current training software and tool
 
 ### Communities:
 - [Enhance Everything!](https://discord.gg/cpAUpDK): A community focused on training models for various purposes, including game upscaling, anime, photos, and more! Look in the `#training` channel's pinned messages for a bunch more info
+- [neosr](https://discord.gg/NN2HGtJ3d6): This is the official neosr server. Ask here about any problems you run into and for general discussion of neosr.
 
 ### Tools:
 - [OpenModelDB](https://openmodeldb.info): This website contains a bunch of community trained models. You can use these models as they are, or use them as pretrains for your own model
@@ -32,6 +33,7 @@ This is a simple repository meant to document current training software and tool
    * A script to efficiently tile your datasets to speed up training
    * a "Dataset destroyer" to manually degrade images
    * and more!
+- [wtp_dataset_destroyer](https://github.com/umzi2/wtp_dataset_destroyer): A remake of Kim's Dataset Destroyer, essentially replacing it. This has more features and is easier to work with.
 - [ImgAlign](https://github.com/sonic41592/ImgAlign): This is a great tool to automatically align your datasets. It supports TPS warping, which is a great feature for difficult image pairs
 - [img-ab](https://github.com/the-database/img-ab): An image comparison tool that is lightweight and efficient with a lot of options. This can be helpful when determining progress on your model
 - [Simple Image Compare](https://github.com/Sirosky/Simple-Image-Compare): A basic tool for comparing images
