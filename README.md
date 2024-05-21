@@ -5,7 +5,6 @@ This is a simple repository meant to document current training software and tool
 ### Training Software:
 #### Recommended software:
 - [neosr](https://github.com/muslll/neosr): NeoSR is a training software that prioritizes stability and performance. This release utlizies Pytorch 2.0, adds AMP & torch.compile() support, and much more. This is the easiest to start with and is consistently updated
-- [neosr-extended](https://github.com/Upscale-Community/neosr-extended): NeoSR-extended is a custom fork of NeoSR that adds additional functions/features. It is updated consistently with the original fork. Extended retains as many features as possible that have been removed from the original neosr, mostly architectures.
 - [sudo's traiNNer](https://github.com/styler00dollar/Colab-traiNNer/): This is custom training software supports a significant amount of losses and architectures, and is very versatile. However, it is much more complex to use
 
 #### Other training software (not recommended)
@@ -19,6 +18,8 @@ This is a simple repository meant to document current training software and tool
 - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN): Very similar to BasicSR with a focus on the Real-ESRGAN architecture, including compact models
 
 - [KAIR](https://github.com/cszn/KAIR): Multifunctional training software that supports many arches
+
+- [neosr-extended](https://github.com/Upscale-Community/neosr-extended): NeoSR-extended is a custom fork of NeoSR that adds additional functions/features. It is no longer updated.
 
 ### Communities:
 - [Enhance Everything!](https://discord.gg/cpAUpDK): A community focused on training models for various purposes, including game upscaling, anime, photos, and more! Look in the `#training` channel's pinned messages for a bunch more info
