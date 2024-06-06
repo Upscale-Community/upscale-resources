@@ -32,10 +32,10 @@ This is a simple repository meant to document current training software and tool
 - [AnimeJaNaiConverterGui](https://github.com/the-database/AnimeJaNaiConverterGui): Allows for fast video upscaling utilizing TensorRT (On Nvidia cards), DirectML, or NCNN within a clean GUI. Only supports ONNX. Use chaiNNer to convert pth models to ONNX for usage.
 - [Kim's Helpful Scripts](https://github.com/Kim2091/helpful-scripts): This is a collection of scripts I've made to assist with using training software. This includes:
    * A script to efficiently tile your datasets to speed up training
-   * a "Dataset destroyer" to manually degrade images
+   * a script to filter out useless/empty images
    * and more!
-- [wtp_dataset_destroyer](https://github.com/umzi2/wtp_dataset_destroyer): A remake of Kim's Dataset Destroyer, essentially replacing it. This has more features and is easier to work with.
-- [ImgAlign](https://github.com/sonic41592/ImgAlign): This is a great tool to automatically align your datasets. It supports TPS warping, which is a great feature for difficult image pairs
+- [wtp_dataset_destroyer](https://github.com/umzi2/wtp_dataset_destroyer): A spiritual successor to Kim's Dataset Destroyer, essentially replacing it. This has more features and is easier to work with, and is updated regularly.
+- [ImgAlign](https://github.com/sonic41592/ImgAlign): This is a great tool to automatically align your datasets. It supports AI based image alignment, which is a great feature for difficult image pairs
 - [img-ab](https://github.com/the-database/img-ab): An image comparison tool that is lightweight and efficient with a lot of options. This can be helpful when determining progress on your model
 - [Simple Image Compare](https://github.com/Sirosky/Simple-Image-Compare): A basic tool for comparing images
 - [Image Pearer](https://github.com/Sirosky/Image-Pearer): This tool will create image pairs from a given source. It looks at two folders of images (one HR, one LR), and automatically matches them up
