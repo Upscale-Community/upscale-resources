@@ -4,7 +4,7 @@ This is a simple repository meant to document current training software and tool
 
 ### Training Software:
 #### Recommended software:
-- [neosr](https://github.com/muslll/neosr): NeoSR is a training software that prioritizes stability and performance. This release utlizies Pytorch 2.0, adds AMP & torch.compile() support, and much more. This is the easiest to start with and is consistently updated
+- [neosr](https://github.com/muslll/neosr): NeoSR is a training software that prioritizes stability and performance. It utlizies Pytorch 2.x, adds AMP & torch.compile() support, and much more. This is the easiest to start with and is consistently updated
 - [sudo's traiNNer](https://github.com/styler00dollar/Colab-traiNNer/): This is custom training software supports a significant amount of losses and architectures, and is very versatile. However, it is much more complex to use
 - [the database's traiNNer-redux](https://github.com/the-database/traiNNer-redux): This training software isn't intended to be cutting edge, but it is very stable and consistently updated. Currently however it is difficult to use due to a lack of up-to-date configuration files and documentation. 
 
