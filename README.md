@@ -39,6 +39,7 @@ This is a simple repository meant to document current training software and tool
 - [img-ab](https://github.com/the-database/img-ab): An image comparison tool that is lightweight and efficient with a lot of options. This can be helpful when determining progress on your model
 - [Simple Image Compare](https://github.com/Sirosky/Simple-Image-Compare): A basic tool for comparing images
 - [Image Pearer](https://github.com/Sirosky/Image-Pearer): This tool will create image pairs from a given source. It looks at two folders of images (one HR, one LR), and automatically matches them up
+- [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch): A quality metrics tool, which can be used to compare the quality of outputs of different models or checkpoints
 
 ### Tutorials:
 Constantly updated: [Sirosky's NeoSR Training Guide](https://github.com/Sirosky/Upscale-Hub/wiki/%F0%9F%93%88-Training-a-Model-in-NeoSR)
@@ -49,6 +50,14 @@ Extra Video Tutorials:
 - Training a model with Real-ESRGAN Compact: https://www.youtube.com/watch?v=l_tZE5l90VY
 - Training an image upscaling model: https://www.youtube.com/watch?v=iH7-eYlf7eg
 - Dataset preparation: https://www.youtube.com/watch?v=TBiVIzQkptI
+
+### Other Ressources
+
+- [PapersWithCode](https://paperswithcode.com/task/image-super-resolution/latest): A place to find the latest research papers released on singe image super resolution
+- [PapersWithCode Datasets]((https://paperswithcode.com/datasets?task=image-super-resolution)): A collection of datasets that can be used for single image super resolution
+- [Awesome-Super-Resolution](https://github.com/ChaofWang/Awesome-Super-Resolution): A github repo where the latest sisr networks are posted, but also includes sisr datasets
+- [Awesome-diffusion-model-for-image-processing](https://github.com/lixinustc/awesome-diffusion-model-for-image-processing): A repo specifically of diffusion-based super resolution (category) networks
+
 
 ### Guidelines for training:
 
