@@ -54,7 +54,7 @@ Extra Video Tutorials:
 ### Other Ressources
 
 - [PapersWithCode](https://paperswithcode.com/task/image-super-resolution/latest): A place to find the latest research papers released on singe image super resolution
-- [PapersWithCode Datasets]((https://paperswithcode.com/datasets?task=image-super-resolution)): A collection of datasets that can be used for single image super resolution
+- [PapersWithCode Datasets](https://paperswithcode.com/datasets?task=image-super-resolution): A collection of datasets that can be used for single image super resolution
 - [Awesome-Super-Resolution](https://github.com/ChaofWang/Awesome-Super-Resolution): A github repo where the latest sisr networks are posted, but also includes sisr datasets
 - [Awesome-diffusion-model-for-image-processing](https://github.com/lixinustc/awesome-diffusion-model-for-image-processing): A repo specifically of diffusion-based super resolution (category) networks
 
