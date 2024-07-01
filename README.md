@@ -1,26 +1,41 @@
-This is a simple repository meant to document current software for using and training models
+This is a simple repository meant to document current software and websites for using and training models
 
+# Section Links:
 
-## 💬 Communities:
+- [Discord Communities](https://github.com/Upscale-Community/upscale-resources?tab=readme-ov-file#speech_balloon-discord-communities)
+- [Upscaling Images or Video](https://github.com/Upscale-Community/upscale-resources?tab=readme-ov-file#tv-upscaling-images-or-video)
+- [Training Upscaling Models](https://github.com/Upscale-Community/upscale-resources?tab=readme-ov-file#running_shirt_with_sash-training-models)
+- [Related Websites](https://github.com/Upscale-Community/upscale-resources?tab=readme-ov-file#computer_mouse-related-websites)
+
+<br/>
+
+# :speech_balloon: Discord Communities:
 - [Enhance Everything!](https://discord.gg/cpAUpDK): A community focused on training models for various purposes, including game upscaling, anime, photos, and more! Look in the `#training` channel's pinned messages for a bunch more info
 - [neosr](https://discord.gg/NN2HGtJ3d6): This is the official neosr server. Ask here about any problems you run into and for general discussion of neosr.
 
-## 📺 Upscaling Images or Video
-### Using Models
-#### 🔧Tools:
-- [OpenModelDB](https://openmodeldb.info): This website contains a bunch of community trained models. You can use these models as they are, or use them as pretrains for your own model
+<br/>
+
+# :tv: Upscaling Images or Video
+## Using Models
+### :wrench: Inference Tools:
 - [chaiNNer](https://chainner.app/): This is a tool that can be used to degrade datasets as well, however it also supports *many* other functions, including using the models you've trained
 - [AnimeJaNaiConverterGui](https://github.com/the-database/AnimeJaNaiConverterGui): Allows for fast video upscaling utilizing TensorRT (On Nvidia cards), DirectML, or NCNN within a clean GUI. Only supports ONNX. Use chaiNNer to convert pth models to ONNX for usage.
 
-#### 📄 Guides:
+### :mag: Finding Models:
+- [OpenModelDB](https://openmodeldb.info): This website contains a bunch of community trained models. You can use these models as they are, or use them as pretrains for your own model
+- Model Releases Channels of the discord communities mentioned above
+
+### :spiral_notepad: Written Guides:
 - [Sirosky's Image Upscaling Guide](https://github.com/Sirosky/Upscale-Hub/wiki/%F0%9F%93%B7-How-to-Upscale-an-Image-or-Multiple-Images)
 - [Sirosky's Video Upscaling Guide](https://github.com/Sirosky/Upscale-Hub/wiki/%F0%9F%93%BA-How-to-Upscale-a-Video)
-- [Real-time Anime Upscaling](https://github.com/the-database/mpv-upscale-2x_animejanai)
+- [Real-time Anime Upscaling](https://github.com/the-database/mpv-upscale-2x_animejanai)  
 
-## 🎽 Training Models
+<br/>
 
-### Training Software:
-#### ✅ Recommended software:
+# :running_shirt_with_sash: Training Models  
+
+## Training Upscaling Models:
+### ✅ Recommended software:
 - [neosr](https://github.com/muslll/neosr): NeoSR is a training software that prioritizes stability and performance. It utlizies Pytorch 2.x, adds AMP & torch.compile() support, and much more. This is the easiest to start with and is consistently updated
 - [sudo's traiNNer](https://github.com/styler00dollar/Colab-traiNNer/): This is custom training software supports a significant amount of losses and architectures, and is very versatile. However, it is much more complex to use
 - [the database's traiNNer-redux](https://github.com/the-database/traiNNer-redux): This training software isn't intended to be cutting edge, but it is very stable and consistently updated. Currently however it is difficult to use due to a lack of up-to-date configuration files and documentation. 
@@ -42,34 +57,32 @@ This is a simple repository meant to document current software for using and tra
 - [neosr-extended](https://github.com/Upscale-Community/neosr-extended): NeoSR-extended is a custom fork of NeoSR that adds additional functions/features. It is no longer maintained.
 </details>
 
-### 🔧 Tools:
-- [OpenModelDB](https://openmodeldb.info): This website contains a bunch of community trained models. You can use these models as they are, or use them as pretrains for your own model
-- [chaiNNer](https://chainner.app/): This is a tool that can be used to degrade datasets as well, however it also supports *many* other functions, including using the models you've trained
-- [AnimeJaNaiConverterGui](https://github.com/the-database/AnimeJaNaiConverterGui): Allows for fast video upscaling utilizing TensorRT (On Nvidia cards), DirectML, or NCNN within a clean GUI. Only supports ONNX. Use chaiNNer to convert pth models to ONNX for usage.
+### :scissors: Dataset Preparation:
+
+- [wtp_dataset_destroyer](https://github.com/umzi2/wtp_dataset_destroyer): A spiritual successor to Kim's Dataset Destroyer, essentially replacing it. This has more features and is easier to work with, and is updated regularly.
 - [Kim's Helpful Scripts](https://github.com/Kim2091/helpful-scripts): This is a collection of scripts I've made to assist with using training software. This includes:
    * A script to efficiently tile your datasets to speed up training
    * a script to filter out useless/empty images
    * and more!
-- [wtp_dataset_destroyer](https://github.com/umzi2/wtp_dataset_destroyer): A spiritual successor to Kim's Dataset Destroyer, essentially replacing it. This has more features and is easier to work with, and is updated regularly.
+- [czkawka](https://github.com/qarmin/czkawka): A tool to find and filter out similiar images based on a similarity index, or to find duplicated or corrupt files.
+
+### :microscope: Outputs / Image Comparison:
 - [ImgAlign](https://github.com/sonic41592/ImgAlign): This is a great tool to automatically align your datasets. It supports AI based image alignment, which is a great feature for difficult image pairs
 - [img-ab](https://github.com/the-database/img-ab): An image comparison tool that is lightweight and efficient with a lot of options. This can be helpful when determining progress on your model
 - [Simple Image Compare](https://github.com/Sirosky/Simple-Image-Compare): A basic tool for comparing images
 - [Image Pearer](https://github.com/Sirosky/Image-Pearer): This tool will create image pairs from a given source. It looks at two folders of images (one HR, one LR), and automatically matches them up
 - [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch): A quality metrics tool, which can be used to compare the quality of outputs of different models or checkpoints
 
-### 📄Training Guides & Info:
-**Constantly Updated:**
+### :memo: Training Guides & Info:
 - [Sirosky's Upscale-Hub](https://github.com/Sirosky/Upscale-Hub/wiki)
 - [Sirosky's NeoSR Guide](https://github.com/Sirosky/Upscale-Hub/wiki/%F0%9F%93%88-Training-a-Model-in-NeoSR)
+- [Youtube Vid: Preparing, training and releasing a model with neosr](https://www.youtube.com/watch?v=8XUHbeE8prU)
+- [Youtube Vid: Training an image upscaling model](https://www.youtube.com/watch?v=iH7-eYlf7eg)
+- [Youtube Vid: Training a model with Real-ESRGAN Compact](https://www.youtube.com/watch?v=l_tZE5l90VY)
+- [Youtube Vid: Dataset Preparation for Training Upscaling Models](https://www.youtube.com/watch?v=TBiVIzQkptI)
+- [How to Train/Finetune Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN/blob/master/docs/Training.md) (This one is a bit dated, but still contains useful info, and a multiscale script)
 
-📺 **Video Tutorials:**
-
-- Preparing for, training, and releasing a model with neosr: https://www.youtube.com/watch?v=8XUHbeE8prU
-- Training a model with Real-ESRGAN Compact: https://www.youtube.com/watch?v=l_tZE5l90VY
-- Training an image upscaling model: https://www.youtube.com/watch?v=iH7-eYlf7eg
-- Dataset preparation: https://www.youtube.com/watch?v=TBiVIzQkptI
-
-**Training Loss Information**
+### **Training Loss Information**
 <details>
 <summary>Descriptions of each loss available in most training software</summary>
 Here is a brief summary of some of the loss functions that are used for super resolution and image restoration tasks. Thanks to korvin for the info!
@@ -105,7 +118,9 @@ Metrics:
 
 </details>
 
-### 📜 Other Resources
+<br/>
+
+# :computer_mouse: Related Websites: 
 
 - [PapersWithCode](https://paperswithcode.com/task/image-super-resolution/latest): A place to find the latest research papers released on singe image super resolution
 - [PapersWithCode Datasets](https://paperswithcode.com/datasets?task=image-super-resolution): A collection of datasets that can be used for single image super resolution
