@@ -65,7 +65,6 @@ This is a simple repository meant to document current software and websites for 
    * a script to filter out useless/empty images
    * and more!
 - [czkawka](https://github.com/qarmin/czkawka): A tool to find and filter out similiar images based on a similarity index, or to find duplicated or corrupt files.
-- [How to Train/Finetune Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN/blob/master/docs/Training.md): A bit dated, but still contains useful info, and a multiscale script
 
 ### :microscope: Outputs / Image Comparison:
 - [ImgAlign](https://github.com/sonic41592/ImgAlign): This is a great tool to automatically align your datasets. It supports AI based image alignment, which is a great feature for difficult image pairs
@@ -75,13 +74,13 @@ This is a simple repository meant to document current software and websites for 
 - [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch): A quality metrics tool, which can be used to compare the quality of outputs of different models or checkpoints
 
 ### :memo: Training Guides & Info:
-**Constantly Updated:**
 - [Sirosky's Upscale-Hub](https://github.com/Sirosky/Upscale-Hub/wiki)
 - [Sirosky's NeoSR Guide](https://github.com/Sirosky/Upscale-Hub/wiki/%F0%9F%93%88-Training-a-Model-in-NeoSR)
 - [Youtube Vid: Preparing, training and releasing a model with neosr](https://www.youtube.com/watch?v=8XUHbeE8prU)
 - [Youtube Vid: Training an image upscaling model](https://www.youtube.com/watch?v=iH7-eYlf7eg)
 - [Youtube Vid: Training a model with Real-ESRGAN Compact](https://www.youtube.com/watch?v=l_tZE5l90VY)
 - [Youtube Vid: Dataset Preparation for Training Upscaling Models](https://www.youtube.com/watch?v=TBiVIzQkptI)
+- [How to Train/Finetune Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN/blob/master/docs/Training.md) (This one is a bit dated, but still contains useful info, and a multiscale script)
 
 ### **Training Loss Information**
 <details>
