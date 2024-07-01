@@ -2,10 +2,10 @@ This is a simple repository meant to document current software and websites for 
 
 # Section Links:
 
-- [Discord Communities]
-- [Upscaling Images or Video]
-- [Training Upscaling Models]
-- [Related Websites]
+- [Discord Communities](https://github.com/Upscale-Community/upscale-resources?tab=readme-ov-file#speech_balloon-discord-communities)
+- [Upscaling Images or Video](https://github.com/Upscale-Community/upscale-resources?tab=readme-ov-file#tv-upscaling-images-or-video)
+- [Training Upscaling Models](https://github.com/Upscale-Community/upscale-resources?tab=readme-ov-file#running_shirt_with_sash-training-models)
+- [Related Websites](https://github.com/Upscale-Community/upscale-resources?tab=readme-ov-file#computer_mouse-related-websites)
 
 <br/>
 
