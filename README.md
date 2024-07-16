@@ -36,9 +36,9 @@ This is a simple repository meant to document current software and websites for 
 
 ## Training Upscaling Models:
 ### ✅ Recommended software:
-- [neosr](https://github.com/muslll/neosr): NeoSR is a training software that prioritizes stability and performance. It utlizies Pytorch 2.x, adds AMP & torch.compile() support, and much more. This is the easiest to start with and is consistently updated
+- [the database's traiNNer-redux](https://github.com/the-database/traiNNer-redux): This training software is intended to be as stable as possible & is consistently updated. It has easy to use configuration files & is easy to set up. It also has most of the latest developments
 - [sudo's traiNNer](https://github.com/styler00dollar/Colab-traiNNer/): This is custom training software supports a significant amount of losses and architectures, and is very versatile. However, it is much more complex to use
-- [the database's traiNNer-redux](https://github.com/the-database/traiNNer-redux): This training software isn't intended to be cutting edge, but it is very stable and consistently updated.
+- [neosr](https://github.com/muslll/neosr): NeoSR is a training software intended to be cutting edge and provide the latest features. However, multiple users have reported slowdowns and instability in recent months and have switched to traiNNer-redux
 
 <details closed>
 <summary>Other training software (not recommended)</summary>
