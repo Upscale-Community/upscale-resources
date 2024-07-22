@@ -76,6 +76,7 @@ This is a simple repository meant to document current software and websites for 
 - [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch): A quality metrics tool, which can be used to compare the quality of outputs of different models or checkpoints
 
 ### :memo: Training Guides & Info:
+- [Kim2091's traiNNer-redux Guide](https://github.com/the-database/traiNNer-redux/wiki/%F0%9F%93%88-Training%E2%80%90a%E2%80%90Model%E2%80%90in%E2%80%90traiNNer%E2%80%90redux) (Thanks @Sirosky for the baseline!)
 - [Sirosky's Upscale-Hub](https://github.com/Sirosky/Upscale-Hub/wiki)
 - [Sirosky's NeoSR Guide](https://github.com/Sirosky/Upscale-Hub/wiki/%F0%9F%93%88-Training-a-Model-in-NeoSR)
 - [Youtube Vid: Preparing, training and releasing a model with neosr](https://www.youtube.com/watch?v=8XUHbeE8prU)
