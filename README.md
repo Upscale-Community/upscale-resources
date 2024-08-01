@@ -19,7 +19,7 @@ This is a simple repository meant to document current software and websites for 
 ## Using Models
 ### :wrench: Inference Tools:
 - [chaiNNer](https://chainner.app/): This is a tool that can be used to degrade datasets as well, however it also supports *many* other functions, including using the models you've trained
-- [AnimeJaNaiConverterGui](https://github.com/the-database/AnimeJaNaiConverterGui): Allows for fast video upscaling utilizing TensorRT (On Nvidia cards), DirectML, or NCNN within a clean GUI. Only supports ONNX. Use chaiNNer to convert pth models to ONNX for usage.
+- [VideoJaNai](https://github.com/the-database/VideoJaNai): Allows for fast video upscaling utilizing TensorRT (On Nvidia cards), DirectML, or NCNN within a clean GUI. Only supports ONNX. Use chaiNNer to convert pth models to ONNX for usage.
 
 ### :mag: Finding Models:
 - [OpenModelDB](https://openmodeldb.info): This website contains a bunch of community trained models. You can use these models as they are, or use them as pretrains for your own model
