@@ -44,7 +44,8 @@ This is a simple repository meant to document current software and websites for 
 <br>
 
 - [neosr](https://github.com/muslll/neosr): NeoSR is intended to be cutting edge and provide the latest features. However, multiple users have reported slowdowns and instability in recent months. In addition, the project's contentious leadership and selective responsiveness to user reports renders it a poor choice overall.
-  - @Phhofm still recommends the software for its feature set and cutting edge implementations
+  - Due to changes made by the author, many models produced by neosr aren't fully compatible with chaiNNer or other software. Results are different if inferenced within neosr vs any other program. See [this issue](https://github.com/muslll/neosr/issues/73). Additionally, you can view incompatible architectures [here](https://github.com/muslll/neosr/wiki/Arch%E2%80%90specific-options)
+  - [@Phhofm](https://github.com/Phhofm) still recommends neosr for its feature set and cutting edge implementations
 
 - [traiNNer-redux](https://github.com/joeyballentine/traiNNer-redux): traiNNer-redux is a now unmaintained fork of BasicSR. It added losses such as color and contextual loss  
 
