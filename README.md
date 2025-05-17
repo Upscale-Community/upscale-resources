@@ -38,15 +38,13 @@ This is a simple repository meant to document current software and websites for 
 ### ✅ Recommended software:
 - [the database's traiNNer-redux](https://github.com/the-database/traiNNer-redux): This training software is intended to be as stable as possible & is consistently updated. It has easy to use configuration files & is easy to set up. It also has most of the latest developments
 - [sudo's traiNNer](https://github.com/styler00dollar/Colab-traiNNer/): This is custom training software supports a significant amount of losses and architectures, and is very versatile. However, it is much more complex to use
+- [neosr](https://github.com/muslll/neosr): NeoSR is intended to be a stable platform for model training, however it has some drawbacks.
+  - Due to changes made by the author, many models produced by neosr aren't fully compatible with chaiNNer or other software. Results are different if inferenced within neosr vs any other program. See [this issue](https://github.com/muslll/neosr/issues/73). 
+  - [@Phhofm](https://github.com/Phhofm) still recommends neosr for its feature set and cutting edge implementations
 
 <details closed>
 <summary>Other training software (not recommended)</summary>
 <br>
-
-- [neosr](https://github.com/muslll/neosr): NeoSR is intended to be cutting edge and provide the latest features. However, multiple users have reported slowdowns and instability in recent months. In addition, the project's contentious leadership and selective responsiveness to user reports renders it a poor choice overall.
-  - Due to changes made by the author, many models produced by neosr aren't fully compatible with chaiNNer or other software. Results are different if inferenced within neosr vs any other program. See [this issue](https://github.com/muslll/neosr/issues/73). Additionally, you can view incompatible architectures [here](https://github.com/muslll/neosr/wiki/Arch%E2%80%90specific-options)
-  - [@Phhofm](https://github.com/Phhofm) still recommends neosr for its feature set and cutting edge implementations
-
 - [traiNNer-redux](https://github.com/joeyballentine/traiNNer-redux): traiNNer-redux is a now unmaintained fork of BasicSR. It added losses such as color and contextual loss  
 
 - [traiNNer-redux-FJ](https://github.com/FlotingDream/traiNNer-redux): A fork of traiNNer-redux by @FloatingJoy#0260 that has additional arch support
@@ -68,6 +66,7 @@ This is a simple repository meant to document current software and websites for 
    * a script to filter out useless/empty images
    * and more!
 - [czkawka](https://github.com/qarmin/czkawka): A tool to find and filter out similiar images based on a similarity index, or to find duplicated or corrupt files.
+- [Video Destroyer](https://github.com/Kim2091/video-destroyer): A tool to prepare video datasets from an input video. It has many options to allow it to work with a variety of sources.
 
 ### :microscope: Outputs / Image Comparison:
 - [ImgAlign](https://github.com/sonic41592/ImgAlign): This is a great tool to automatically align your datasets. It supports AI based image alignment, which is a great feature for difficult image pairs
@@ -77,7 +76,7 @@ This is a simple repository meant to document current software and websites for 
 - [IQA-PyTorch](https://github.com/chaofengc/IQA-PyTorch): A quality metrics tool, which can be used to compare the quality of outputs of different models or checkpoints
 
 ### :memo: Training Guides & Info:
-- [Kim2091's traiNNer-redux Guide](https://github.com/the-database/traiNNer-redux/wiki/%F0%9F%93%88-Training%E2%80%90a%E2%80%90Model%E2%80%90in%E2%80%90traiNNer%E2%80%90redux) (Thanks [@Sirosky](https://github.com/Sirosky) for the baseline!)
+- [the-database's traiNNer-redux guide](https://trainner-redux.readthedocs.io/en/latest/getting_started.html)
 - [Sirosky's Upscale-Hub](https://github.com/Sirosky/Upscale-Hub/wiki)
 - [Sirosky's NeoSR Guide](https://github.com/Sirosky/Upscale-Hub/wiki/%F0%9F%93%88-Training-a-Model-in-NeoSR)
 - [Youtube Vid: Preparing, training and releasing a model with neosr](https://www.youtube.com/watch?v=8XUHbeE8prU)
