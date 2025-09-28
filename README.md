@@ -38,13 +38,14 @@ This is a simple repository meant to document current software and websites for 
 ### ✅ Recommended software:
 - [the database's traiNNer-redux](https://github.com/the-database/traiNNer-redux): This training software is intended to be as stable as possible & is consistently updated. It has easy to use configuration files & is easy to set up. It also has most of the latest developments
 - [sudo's traiNNer](https://github.com/styler00dollar/Colab-traiNNer/): This is custom training software supports a significant amount of losses and architectures, and is very versatile. However, it is much more complex to use
-- [neosr](https://github.com/muslll/neosr): NeoSR is intended to be a stable platform for model training, however it has some drawbacks.
-  - Due to changes made by the author, many models produced by neosr aren't fully compatible with chaiNNer or other software. Results are different if inferenced within neosr vs any other program. See [this issue](https://github.com/muslll/neosr/issues/73). 
-  - [@Phhofm](https://github.com/Phhofm) still recommends neosr for its feature set and cutting edge implementations
 
 <details closed>
 <summary>Other training software (not recommended)</summary>
 <br>
+- [neosr](https://github.com/muslll/neosr): NeoSR is intended to be a stable platform for model training, however it has some drawbacks. No longer maintained.
+  - Due to changes made by the author, many models produced by neosr aren't fully compatible with chaiNNer or other software. Results are different if inferenced within neosr vs any other program. See [this issue](https://github.com/muslll/neosr/issues/73). 
+  - [@Phhofm](https://github.com/Phhofm) still recommends neosr for its feature set and cutting edge implementations
+
 - [traiNNer-redux](https://github.com/joeyballentine/traiNNer-redux): traiNNer-redux is a now unmaintained fork of BasicSR. It added losses such as color and contextual loss  
 
 - [traiNNer-redux-FJ](https://github.com/FlotingDream/traiNNer-redux): A fork of traiNNer-redux by @FloatingJoy#0260 that has additional arch support
