@@ -17,10 +17,14 @@ This is a simple repository meant to document current software and websites for 
 
 # :tv: Upscaling Images or Video
 ## Using Models
-### :wrench: Inference Tools:
+### 🖼️ Image Upscaling Tools:
 - [chaiNNer](https://chainner.app/): This is a tool that can be used to degrade datasets as well, however it also supports *many* other functions, including using the models you've trained
-- [VideoJaNai](https://github.com/the-database/VideoJaNai): Allows for fast video upscaling utilizing TensorRT (On Nvidia cards), DirectML, or NCNN within a clean GUI. Only supports ONNX. Use chaiNNer to convert pth models to ONNX for usage.
+
+### ⏯️ Video Upscaling Tools:
 - [Vapourkit](https://github.com/Kim2091/vapourkit): A GUI that allows for fast and easy video upscaling with many pre-installed models, and also supports advanced Vapoursynth filter setups. Supports TensorRT and DirectML, requires ONNX models.
+- [VideoJaNai](https://github.com/the-database/VideoJaNai): Allows for fast video upscaling utilizing TensorRT (On Nvidia cards), DirectML, or NCNN within a clean GUI. Only supports ONNX. Use chaiNNer to convert pth models to ONNX for usage.
+- [REAL-Video-Enhancer](https://github.com/TNTwise/REAL-Video-Enhancer): A fast and multiplatform video upscaling program, supports TensorRT and NCNN.
+- [chaiNNer](https://chainner.app/): chaiNNer can also process videos, however it is extremely slow compared to Vapourkit and VideoJaNai
 
 ### :mag: Finding Models:
 - [OpenModelDB](https://openmodeldb.info): This website contains a bunch of community trained models. You can use these models as they are, or use them as pretrains for your own model
